@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+    font-display: swap;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 200 800;
+    src: url("./assets/fonts/Manrope-VariableFont_wght.woff2") format("woff2");
+}
+
+@theme {
+    --background-color-dark: #0a0a0a;
+    --background-color-light: #f7f7f7;
+    --font-manrope: "Manrope", sans-serif;
+}
