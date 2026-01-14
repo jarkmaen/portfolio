@@ -10,9 +10,16 @@
     src: url("./assets/fonts/Manrope-VariableFont_wght.woff2") format("woff2");
 }
 
+@layer components {
+    .card {
+        @apply bg-white border border-light dark:bg-surface-dark dark:border-dark dark:hover:border-white/50 hover:border-slate-900/50 rounded-xl transition;
+    }
+}
+
 @theme {
     --background-color-dark: #0a0a0a;
     --background-color-light: #f7f7f7;
+    --background-color-surface-dark: #18181b;
     --border-color-dark: #27272a;
     --border-color-light: #e2e8f0;
     --font-manrope: "Manrope", sans-serif;
