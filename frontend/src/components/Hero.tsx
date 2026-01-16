@@ -10,7 +10,7 @@ const Hero = () => {
             <div className="flex flex-col gap-2 h-full justify-center max-w-[55%] p-10 relative">
                 <div className="dark:text-slate-400 flex gap-2 items-center text-slate-500 text-sm">
                     <span className="[font-variation-settings:'wght'300] material-symbols-outlined select-none">
-                        language
+                        person
                     </span>
                     <span className="font-bold tracking-wider">ABOUT ME</span>
                 </div>
