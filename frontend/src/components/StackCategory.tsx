@@ -1,11 +1,13 @@
+import type { TechItem } from "../types";
+
 type Props = {
     icon: string;
     isFullWidth?: boolean;
-    techIcons: string[];
+    items: TechItem[];
     title: string;
 };
 
-const StackCard = ({ icon, isFullWidth = false, techIcons, title }: Props) => {
+const StackCard = ({ icon, isFullWidth = false, items, title }: Props) => {
     return (
         <div
             className={`card ${
@@ -20,8 +22,14 @@ const StackCard = ({ icon, isFullWidth = false, techIcons, title }: Props) => {
             </div>
             <hr className="border-light dark:border-dark mt-3 mb-6" />
             <div className="flex flex-wrap gap-4">
-                {techIcons.map((url, idx) => (
-                    <img className="h-14.5 w-14.5" key={idx} src={url} />
+                {items.map((item, idx) => (
+                    <img
+                        alt={item.title}
+                        className="h-14.5 w-14.5"
+                        key={idx}
+                        src={item.url}
+                        title={item.title}
+                    />
                 ))}
             </div>
         </div>
