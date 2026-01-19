@@ -1,4 +1,7 @@
-export interface TechItem {
+import type { ComponentType } from "react";
+
+export type TechItem = {
+    Icon?: ComponentType;
     title: string;
-    url: string;
-}
+    url?: string;
+};

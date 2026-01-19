@@ -1,25 +1,34 @@
+import AWSIcon from "../components/icons/AWSIcon";
+import CSSIcon from "../components/icons/CSSIcon";
+import DotNetCoreIcon from "../components/icons/DotNetCoreIcon";
+import ExpressIcon from "../components/icons/ExpressIcon";
+import GitHubIcon from "../components/icons/GitHubIcon";
+import GitIcon from "../components/icons/GitIcon";
+import HTMLIcon from "../components/icons/HTMLIcon";
+import NodeIcon from "../components/icons/NodeIcon";
+import PostgreSQLIcon from "../components/icons/PostgreSQLIcon";
 import robotFrameworkLogo from "../assets/images/robot-framework.svg";
 import type { TechItem } from "../types";
 
 export const backend: TechItem[] = [
     {
-        title: "Node.js",
-        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+        Icon: NodeIcon,
+        title: "Node.js"
     },
     {
-        title: "Express",
-        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg"
+        Icon: ExpressIcon,
+        title: "Express"
     },
     {
-        title: ".NET Core",
-        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg"
+        Icon: DotNetCoreIcon,
+        title: ".NET Core"
     }
 ];
 
 export const databases: TechItem[] = [
     {
-        title: "PostgreSQL",
-        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg"
+        Icon: PostgreSQLIcon,
+        title: "PostgreSQL"
     },
     {
         title: "MySQL",
@@ -37,8 +46,8 @@ export const devOps: TechItem[] = [
         url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg"
     },
     {
-        title: "AWS",
-        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+        Icon: AWSIcon,
+        title: "AWS"
     },
     {
         title: "GitHub Actions",
@@ -49,12 +58,12 @@ export const devOps: TechItem[] = [
         url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
     },
     {
-        title: "Git",
-        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg"
+        Icon: GitIcon,
+        title: "Git"
     },
     {
-        title: "GitHub",
-        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+        Icon: GitHubIcon,
+        title: "GitHub"
     }
 ];
 
@@ -118,11 +127,11 @@ export const webDev: TechItem[] = [
         url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
     },
     {
-        title: "HTML",
-        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
+        Icon: HTMLIcon,
+        title: "HTML"
     },
     {
-        title: "CSS",
-        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+        Icon: CSSIcon,
+        title: "CSS"
     }
 ];

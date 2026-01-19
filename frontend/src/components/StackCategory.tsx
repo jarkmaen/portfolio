@@ -21,15 +21,19 @@ const StackCard = ({ icon, isFullWidth = false, items, title }: Props) => {
                 <span className="font-bold text-lg">{title}</span>
             </div>
             <hr className="border-light dark:border-dark mt-3 mb-6" />
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-4 select-none">
                 {items.map((item, idx) => (
-                    <img
-                        alt={item.title}
-                        className="h-14.5 w-14.5"
-                        key={idx}
-                        src={item.url}
-                        title={item.title}
-                    />
+                    <div key={idx} title={item.title}>
+                        {item.Icon ? (
+                            <item.Icon />
+                        ) : (
+                            <img
+                                alt={item.title}
+                                className="h-14.5 w-14.5"
+                                src={item.url}
+                            />
+                        )}
+                    </div>
                 ))}
             </div>
         </div>
