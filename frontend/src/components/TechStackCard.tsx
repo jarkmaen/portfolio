@@ -7,7 +7,7 @@ type Props = {
     title: string;
 };
 
-const StackCard = ({ icon, isFullWidth = false, items, title }: Props) => {
+const TechStackCard = ({ icon, isFullWidth = false, items, title }: Props) => {
     return (
         <div
             className={`card ${
@@ -40,4 +40,4 @@ const StackCard = ({ icon, isFullWidth = false, items, title }: Props) => {
     );
 };
 
-export default StackCard;
+export default TechStackCard;

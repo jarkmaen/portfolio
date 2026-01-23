@@ -1,6 +1,6 @@
-import TimelineItem from "./TimelineItem";
+import ExperienceCard from "./ExperienceCard";
 
-const Timeline = () => {
+const Experience = () => {
     return (
         <>
             <div className="dark:text-white flex gap-3 items-center text-slate-900">
@@ -12,14 +12,14 @@ const Timeline = () => {
             <div className="relative">
                 <div className="absolute bg-(--border-color-light) bottom-0 dark:bg-(--border-color-dark) left-1/2 top-0 w-px" />
                 <div className="flex flex-col gap-9">
-                    <TimelineItem
+                    <ExperienceCard
                         description="TBA"
                         icon="school"
                         label="MS Computer Science"
                         period="2023 - 2025"
                         subLabel="University of Helsinki"
                     />
-                    <TimelineItem
+                    <ExperienceCard
                         description="TBA"
                         icon="school"
                         isLeft={true}
@@ -27,7 +27,7 @@ const Timeline = () => {
                         period="2020 - 2023"
                         subLabel="University of Helsinki"
                     />
-                    <TimelineItem
+                    <ExperienceCard
                         description="TBA"
                         icon="code"
                         label="Software Developer Trainee"
@@ -40,4 +40,4 @@ const Timeline = () => {
     );
 };
 
-export default Timeline;
+export default Experience;

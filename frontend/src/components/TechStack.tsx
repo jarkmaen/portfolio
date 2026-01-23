@@ -1,5 +1,5 @@
 import * as data from "../data/techStack";
-import StackCategory from "./StackCategory";
+import TechStackCard from "./TechStackCard";
 
 const TechStack = () => {
     return (
@@ -11,37 +11,37 @@ const TechStack = () => {
                 <h4 className="font-bold text-3xl">My Tech Stack</h4>
             </div>
             <div className="gap-4 grid grid-cols-3">
-                <StackCategory
+                <TechStackCard
                     icon="desktop_windows"
                     items={data.frontend}
                     title="Frontend"
                 />
-                <StackCategory
+                <TechStackCard
                     icon="dns"
                     items={data.backend}
                     title="Backend"
                 />
-                <StackCategory
+                <TechStackCard
                     icon="language"
                     items={data.webDev}
                     title="Web Dev"
                 />
-                <StackCategory
+                <TechStackCard
                     icon="bug_report"
                     items={data.testing}
                     title="Testing & Automation"
                 />
-                <StackCategory
+                <TechStackCard
                     icon="code"
                     items={data.languages}
                     title="Programming Languages"
                 />
-                <StackCategory
+                <TechStackCard
                     icon="database"
                     items={data.databases}
                     title="Databases"
                 />
-                <StackCategory
+                <TechStackCard
                     icon="cloud"
                     isFullWidth={true}
                     items={data.devOps}

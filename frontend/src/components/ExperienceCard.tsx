@@ -7,7 +7,7 @@ type Props = {
     subLabel: string;
 };
 
-const TimelineItem = ({
+const ExperienceCard = ({
     description,
     icon,
     isLeft = false,
@@ -44,4 +44,4 @@ const TimelineItem = ({
     );
 };
 
-export default TimelineItem;
+export default ExperienceCard;
