@@ -8,9 +8,9 @@ import HTMLIcon from "../components/icons/HTMLIcon";
 import NodeIcon from "../components/icons/NodeIcon";
 import PostgreSQLIcon from "../components/icons/PostgreSQLIcon";
 import robotFrameworkLogo from "../assets/images/robot-framework.svg";
-import type { TechItem } from "../types";
+import type { TechIcon } from "../types";
 
-export const backend: TechItem[] = [
+export const backend: TechIcon[] = [
     {
         Icon: NodeIcon,
         title: "Node.js"
@@ -25,7 +25,7 @@ export const backend: TechItem[] = [
     }
 ];
 
-export const databases: TechItem[] = [
+export const databases: TechIcon[] = [
     {
         Icon: PostgreSQLIcon,
         title: "PostgreSQL"
@@ -40,7 +40,7 @@ export const databases: TechItem[] = [
     }
 ];
 
-export const devOps: TechItem[] = [
+export const devOps: TechIcon[] = [
     {
         title: "Docker",
         url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg"
@@ -67,7 +67,7 @@ export const devOps: TechItem[] = [
     }
 ];
 
-export const frontend: TechItem[] = [
+export const frontend: TechIcon[] = [
     {
         title: "React",
         url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
@@ -86,7 +86,7 @@ export const frontend: TechItem[] = [
     }
 ];
 
-export const languages: TechItem[] = [
+export const languages: TechIcon[] = [
     {
         title: "Java",
         url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg"
@@ -105,7 +105,7 @@ export const languages: TechItem[] = [
     }
 ];
 
-export const testing: TechItem[] = [
+export const testing: TechIcon[] = [
     { title: "Robot Framework", url: robotFrameworkLogo },
     {
         title: "Jest",
@@ -117,7 +117,7 @@ export const testing: TechItem[] = [
     }
 ];
 
-export const webDev: TechItem[] = [
+export const webDev: TechIcon[] = [
     {
         title: "TypeScript",
         url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"

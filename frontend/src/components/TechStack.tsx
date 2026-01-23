@@ -12,39 +12,39 @@ const TechStack = () => {
             </div>
             <div className="gap-4 grid grid-cols-3">
                 <TechStackCard
-                    icon="desktop_windows"
-                    items={data.frontend}
+                    headerIcon="desktop_windows"
+                    techIcons={data.frontend}
                     title="Frontend"
                 />
                 <TechStackCard
-                    icon="dns"
-                    items={data.backend}
+                    headerIcon="dns"
+                    techIcons={data.backend}
                     title="Backend"
                 />
                 <TechStackCard
-                    icon="language"
-                    items={data.webDev}
+                    headerIcon="language"
+                    techIcons={data.webDev}
                     title="Web Dev"
                 />
                 <TechStackCard
-                    icon="bug_report"
-                    items={data.testing}
+                    headerIcon="bug_report"
+                    techIcons={data.testing}
                     title="Testing & Automation"
                 />
                 <TechStackCard
-                    icon="code"
-                    items={data.languages}
+                    headerIcon="code"
+                    techIcons={data.languages}
                     title="Programming Languages"
                 />
                 <TechStackCard
-                    icon="database"
-                    items={data.databases}
+                    headerIcon="database"
+                    techIcons={data.databases}
                     title="Databases"
                 />
                 <TechStackCard
-                    icon="cloud"
+                    headerIcon="cloud"
                     isFullWidth={true}
-                    items={data.devOps}
+                    techIcons={data.devOps}
                     title="Version Control, CI/CD & Cloud Services"
                 />
             </div>

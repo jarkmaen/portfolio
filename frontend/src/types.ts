@@ -1,17 +1,17 @@
 import type { ComponentType } from "react";
 
-type BaseTechItem = {
+type BaseTechIcon = {
     title: string;
 };
 
-type WithIcon = BaseTechItem & {
+type WithIcon = BaseTechIcon & {
     Icon: ComponentType;
     url?: never;
 };
 
-type WithUrl = BaseTechItem & {
+type WithUrl = BaseTechIcon & {
     Icon?: never;
     url: string;
 };
 
-export type TechItem = WithIcon | WithUrl;
+export type TechIcon = WithIcon | WithUrl;
