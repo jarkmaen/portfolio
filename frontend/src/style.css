@@ -22,5 +22,7 @@
     --background-color-surface-dark: #18181b;
     --border-color-dark: #27272a;
     --border-color-light: #e2e8f0;
+    --color-accent-dark: #3b82f6;
+    --color-accent-light: #155dfc;
     --font-manrope: "Manrope", sans-serif;
 }

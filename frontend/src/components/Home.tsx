@@ -1,4 +1,5 @@
 import Experience from "./Experience";
+import FeaturedProjects from "./FeaturedProjects";
 import Hero from "./Hero";
 import TechStack from "./TechStack";
 
@@ -8,6 +9,7 @@ const Home = () => {
             <Hero />
             <TechStack />
             <Experience />
+            <FeaturedProjects />
         </div>
     );
 };
